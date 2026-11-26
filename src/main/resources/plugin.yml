@@ -1,0 +1,17 @@
+name: WhitelistStats
+version: 1.0.0
+main: me.whiteliststats.WhitelistStatsPlugin
+api-version: '26.2'
+description: View statistics of all whitelisted players in a GUI.
+
+commands:
+  wlstats:
+    description: Open the whitelisted player statistics menu.
+    usage: /wlstats
+    aliases: [whiteliststats]
+    permission: whiteliststats.use
+
+permissions:
+  whiteliststats.use:
+    description: Allows viewing whitelisted players' statistics.
+    default: op
